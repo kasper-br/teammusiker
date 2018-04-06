@@ -17,6 +17,7 @@ body {
     overflow: hidden;
     height: 100vh;
     width: 100vw;
+    background: black;
 }
 
 .videobg {
@@ -82,6 +83,7 @@ main {
     transform: translate(-50%, -50%);
     svg {
         width:  100%;
+        height: auto;
     }
 }
 
@@ -102,6 +104,7 @@ footer {
                 font-size: 13px;
                 font-weight: 400;
                 text-decoration: none;
+            }
         }
     }
 }
@@ -111,7 +114,27 @@ footer {
 	left: 50%;
     top: 0;
     transform: translateX(-50%);
+
 	.remove {
-		user-select: none;
-	}
+        user-select: none;
+        background: yellow;
+        width: 30px;
+        height: 30px;
+        display: block;
+
+        &.marked {
+            background: red;
+        }
+    }
+    
+    .btn-pause , .muted{
+        background: yellow;
+        width: 30px;
+        height: 30px;
+        display: block;
+
+        &.marked {
+            background: red;
+        }
+    }
 }
