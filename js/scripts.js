@@ -30,7 +30,7 @@ $( document ).ready(function() {
     });
     
     //VIS BOKSEN I BUNDEN
-    $('#about').on('click', function() {
+    $('#about, #close').on('click', function() {
         $('main').toggleClass('show');
     });
 
