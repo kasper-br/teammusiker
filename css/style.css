@@ -40,7 +40,7 @@ body {
 }
 @media screen and (max-width: 320px) {
   .videobg video {
-    position: static;
+    position: relative;
     right: auto;
     bottom: auto;
   }
@@ -61,11 +61,21 @@ header {
   left: 30px;
   z-index: 999;
 }
+@media screen and (max-width: 320px) {
+  header {
+    position: relative;
+  }
+}
 header nav {
   position: fixed;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+@media screen and (max-width: 320px) {
+  header nav {
+    position: absolute;
+  }
 }
 header nav ul {
   list-style: none;
@@ -97,7 +107,7 @@ main {
 }
 @media screen and (max-width: 320px) {
   main {
-    position: static;
+    position: relative;
     left: auto;
     bottom: auto;
     padding: 30px;
