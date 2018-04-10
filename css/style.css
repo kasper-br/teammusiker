@@ -21,6 +21,11 @@ body {
   width: 100vw;
   background: black;
 }
+@media screen and (max-width: 320px) {
+  body {
+    overflow: auto;
+  }
+}
 
 .videobg {
   width: 100%;
@@ -32,6 +37,13 @@ body {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+}
+@media screen and (max-width: 320px) {
+  .videobg video {
+    position: static;
+    right: auto;
+    bottom: auto;
+  }
 }
 
 .hideme {
@@ -82,6 +94,14 @@ main {
   -webkit-transition: 300ms ease;
   transition: 300ms ease;
   z-index: 999;
+}
+@media screen and (max-width: 320px) {
+  main {
+    position: static;
+    left: auto;
+    bottom: auto;
+    padding: 30px;
+  }
 }
 main h2 {
   color: white;
