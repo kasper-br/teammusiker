@@ -57,6 +57,7 @@ header {
         position: fixed;
         top: 50%;
         transform: translateY(-50%);
+
         ul {
             list-style: none;
             li {
@@ -67,6 +68,10 @@ header {
                     text-decoration: none;
                     font-size: 7vw;
                     font-weight: 100;
+										&:hover{
+											text-decoration: underline;
+										}
+
                 }
             }
         }
