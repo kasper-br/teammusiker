@@ -7,7 +7,7 @@
 		"uuidString": "76971C3B-C79C-46E0-945A-CBEBFF1B5366"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/css\/style.css": {
 		"aP": 1,
@@ -18,6 +18,28 @@
 		"oAP": "\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/img\/bg-video.jpg": {
+		"ft": 16384,
+		"iS": 24961,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/bg-video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/mobil-video.jpg": {
+		"ft": 16384,
+		"iS": 145174,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/mobil-video.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -54,16 +76,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/scss\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/scss\/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/scss\/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -86,7 +98,8 @@
 	"creationDate": 544558071,
 	"displayValue": "teammusiker",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ariel"
+	"iconImageName": "meme-ariel",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1889,6 +1902,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
